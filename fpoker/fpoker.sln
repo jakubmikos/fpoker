@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fpoker", "fpoker.fsproj", "{A49456B8-AB57-42C4-9F73-27CA0B618C23}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UnitTests", "..\UnitTests\UnitTests.fsproj", "{026E5945-B369-4291-9BA4-7DF6608190DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A49456B8-AB57-42C4-9F73-27CA0B618C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49456B8-AB57-42C4-9F73-27CA0B618C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49456B8-AB57-42C4-9F73-27CA0B618C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49456B8-AB57-42C4-9F73-27CA0B618C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026E5945-B369-4291-9BA4-7DF6608190DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026E5945-B369-4291-9BA4-7DF6608190DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026E5945-B369-4291-9BA4-7DF6608190DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026E5945-B369-4291-9BA4-7DF6608190DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
