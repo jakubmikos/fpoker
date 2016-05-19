@@ -62,14 +62,28 @@
     module ``shuffleList`` =
         
         [<Fact>]
-        let ``should be shuffled`` ()=
+        let ``shuffled deck should have the same length`` ()=
             let deck = getFullDeck()
 
             let shuffled = shuffleList deck 50
 
             shuffled |> should haveLength deck.Length
+
+        [<Fact>]
+        let ``shuffled deck should not be the same as not shuffled`` ()=
+            let deck = getFullDeck()
+
+            let shuffled = shuffleList deck 50
+
             shuffled |> should not' (equal deck)
-            //deck |> List.iter (shuffled |> should contain)
+            
+        [<Fact>]
+        let ``shuffled deck should contain all of the cards from not shuffled one`` ()=
+            let deck = getFullDeck()
+
+            let shuffled = shuffleList deck 50
+
+            (set shuffled) |> should equal (set deck)
     
     module ``getFullDeck`` =
 
