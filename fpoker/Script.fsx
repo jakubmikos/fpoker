@@ -4,7 +4,7 @@
 #load "Deck.fs"
 open fpoker.Deck
 
-let deck = getFullDeck()
+getFullDeck()
 
-shuffleList deck 50
+
 
