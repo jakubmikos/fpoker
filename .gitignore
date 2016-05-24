@@ -234,6 +234,7 @@ _Pvt_Extensions
 
 # Paket dependency manager
 .paket/paket.exe
+!.paket/paket.bootstrapper.exe
 
 # FAKE - F# Make
 .fake/
@@ -241,3 +242,6 @@ _Pvt_Extensions
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# custom build ect folders
+build
