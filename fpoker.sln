@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fpoker", "fpoker.fsproj", "{A49456B8-AB57-42C4-9F73-27CA0B618C23}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fpoker", "src\fpoker\fpoker.fsproj", "{A49456B8-AB57-42C4-9F73-27CA0B618C23}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UnitTests", "..\UnitTests\UnitTests.fsproj", "{026E5945-B369-4291-9BA4-7DF6608190DB}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UnitTests", "tests\UnitTests\UnitTests.fsproj", "{026E5945-B369-4291-9BA4-7DF6608190DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

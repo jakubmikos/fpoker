@@ -8,7 +8,7 @@ Target "Clean" (fun _ ->
 )
 
 Target "BuildApp" (fun _ ->
-    !! "**/*.fsproj"
+    !! "src/**/*.fsproj"
         |> MSBuildRelease buildDir "Build"
         |> Log "AppBuild-Output: "
 )

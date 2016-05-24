@@ -91,7 +91,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\fpoker\fpoker.fsproj">
+    <ProjectReference Include="..\..\src\fpoker\fpoker.fsproj">
       <Name>fpoker</Name>
       <Project>{a49456b8-ab57-42c4-9f73-27ca0b618c23}</Project>
       <Private>True</Private>
