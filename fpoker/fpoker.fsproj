@@ -53,8 +53,9 @@
     <Compile Include="Deck.fs" />
     <None Include="Script.fsx" />
     <Compile Include="AssemblyInfo.fs" />
-    <Content Include="packages.config" />
     <None Include="paket.dependencies" />
+    <None Include="build.fsx" />
+    <None Include="build.bat" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
